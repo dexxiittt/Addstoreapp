@@ -419,7 +419,7 @@ function setSuccessUI(proses, tipsText) {
       ui.statusDescription.innerText = "Pesanan telah selesai diproses oleh Admin. Terima kasih sudah membeli di Addstoreapp.";
       ui.statusTipText.innerHTML = generateTipsHtml(tipsText, "Pesanan telah selesai diproses. Terima kasih telah berbelanja!");
       document.getElementById("supportTitle").innerText = "Pesanan Selesai ✨";
-      document.getElementById("supportDescription").innerHTML = "Pesanan kamu telah selesai diproses fully oleh admin. Terima kasih telah berbelanja di <b>Addstoreapp</b>.";
+      document.getElementById("supportDescription").innerHTML = "Pesanan kamu telah selesai diproses full oleh admin. Terima kasih telah berbelanja di <b>Addstoreapp</b>.";
       break;
   }
 }
